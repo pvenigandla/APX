@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "986399665317",
+    "firebase_url": "https://apx-hackfsu.firebaseio.com",
+    "project_id": "apx-hackfsu",
+    "storage_bucket": "apx-hackfsu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986399665317:android:0d720e907fd59b1d",
+        "android_client_info": {
+          "package_name": "hackfsu.apx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986399665317-i4hnp2526f1uof4rqvuq3mjefpr6bpmt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmkN9Q03iiGTl6yud06r0tEvgRtKwD0-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
