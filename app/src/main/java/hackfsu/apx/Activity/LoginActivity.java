@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_activity);
+        setContentView(R.layout.signup_form);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
                     return;
                 }
 
-                final PersonModel person = new PersonModel(nameValue, emailValue);
+                final PersonModel person = new PersonModel(nameValue, emailValue, heightValue, weightValue);
                 FirebaseAuth.getInstance()
                         .createUserWithEmailAndPassword(emailValue, passwordValue)
                         .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {

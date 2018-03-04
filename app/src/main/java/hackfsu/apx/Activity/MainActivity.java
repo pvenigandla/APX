@@ -32,7 +32,7 @@ import hackfsu.apx.utils.StringUtils;
 public class MainActivity extends AppCompatActivity {
     @Override protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.hamburger_main);
+        setContentView(R.layout.activity_main);
 
         final TextView signUpButton     = (TextView) findViewById(R.id.signin_signup_button);
         final TextView signInButton     = (TextView) findViewById(R.id.signin_signin_button);
